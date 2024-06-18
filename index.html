@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en-NZ" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverly Ann Gupit</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logos/BG Logo-02.png" type="image/x-icon">
+    <!---->
+
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!---->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!---->
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!---->
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!---->
+
+    <!-- css icons -->
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+    <!---->
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e9c86d33df.js" crossorigin="anonymous"></script>
+    <!---->
+
+</head>
+<body class="text-[16px] md:text-[20px] bg-[#f6f6f6] font-['DM_Sans'] text-black selection:bg-slate-300">
+
+    <!-- topnav -->
+    <nav class="navbar navbar-expand-sm bg-[#f6f6f6] justify-content-center">
+        <div class="container-fluid px-10 lg:px-20">
+            <a href="./index.html" class="navbar-brand">
+                <img src="./images/logos/BG Logo-02.png" alt="Logo" width="50px">
+            </a>
+            <div class="justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!-- offcanvas menu button -->
+                        <button class="btn mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" title="Menu">
+                            <img src="./images/logos/BG Navigation Bar.png" alt="Menu" width="30px">
+                        </button>
+                    </li>
+                </ul>
+                <!-- offcanvas menu -->
+                <div class="offcanvas offcanvas-end bg-[#f6f6f6]" id="menu">
+                    <div class="offcanvas-header pt-10 px-20">
+                        <p class="offcanvas-title display-6 fw-bold font-['Marcellus']">
+                        
+                        </p>
+                        <button class="text-reset text-black mr-5" type="button" data-bs-dismiss="offcanvas">
+                            <i class="gg-close"></i>
+                        </button>
+                    </div>
+                    <div class="offcanvas-body px-20 pt-4">
+                        <ul class="space-y-10 transition">
+                            <li class="py-2 display-6 font-[700]">
+                                <a href="./index.html" class="font-[Unbounded] transition duration-500 text-zinc-700 hover:text-black">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="py-2 display-6 font-[700]">
+                                <a href="./pages/service.html" class="font-[Unbounded] transition duration-500 text-zinc-700 hover:text-black">
+                                    SERVICES
+                                </a>
+                            </li>
+                            <li class="py-2 display-6 font-[700]">
+                                <a href="./pages/project.html" class="font-[Unbounded] transition duration-500 text-zinc-700 hover:text-black">
+                                    PROJECTS
+                                </a>
+                            </li>
+                            <li class="py-2 display-6 font-[700]">
+                                <a href="./pages/about.html" class="font-[Unbounded] transition duration-500 text-zinc-700 hover:text-black">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li class="py-2 display-6 font-[700]">
+                                <a href="./pages/contact.html" class="font-[Unbounded] transition duration-500 text-zinc-700 hover:text-black">
+                                    CONTACT
+                                </a>
+                            </li>
+                            <li class="no-underline decoration-4 decoration-rose-400 text-sm">
+                                <p>
+                                    <div class="row">
+                                        <div class="col py-2">
+                                            <!-- facebook -->
+                                            <a href="https://www.facebook.com/BeverlyDigitalDoer">
+                                                <img src="./images/icons/BG Website Icon_Facebook.svg" alt="Facebook" width="40px">
+                                            </a>
+                                        </div>
+                                        <div class="col py-2">
+                                            <!-- instagram -->
+                                            <a href="https://www.instagram.com/beverlygupit/">
+                                                <img src="./images/icons/BG Website Icon_Instagram.svg" alt="Instagram" width="40px">
+                                            </a>
+                                        </div>
+                                        <div class="col py-2">
+                                            <!-- linkedin -->
+                                            <a href="https://www.linkedin.com/in/beverly-ann-gupit/">
+                                                <img src="./images/icons/BG Website Icon_Linkedin.svg" alt="LinkedIn" width="40px">
+                                            </a>
+                                        </div>
+                                        <div class="col py-2">
+                                            <!-- empty -->
+                                        </div>
+                                        <div class="col py-2">
+                                            <!-- empty -->
+                                        </div>
+                                    </div>
+                                </p>
+                                <p class="py-2 text-[12px]">
+                                    <!-- taskade -->
+                                    Proud user of 
+                                    <a href="https://www.taskade.com">
+                                        <img src="./images/taskade.png" alt="taskade" title="Taskade" class="img-fluid px-1" width="30px">
+                                    </a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </nav>
+    <!---->
+    
+    <!-- whitespace -->
+    <div class="py-10"></div>
+
+    <!-- welcome -->
+    <div class="welcome py-28 md:py-80 centered">
+        <!-- text overlay -->
+        <h1 class="display-1 font-['Unbounded'] text-center font-[900] selection:bg-[#d6ffa7]">
+            Beverly is a Digital Doer
+            <br/>
+            AKA she helps manage your
+            <br/>
+            online presence with ease
+        </h1>
+    </div>
+    <!---->
+
+
+    <!-- service -->
+    <div class="container-fluid py-20">
+        <div class="container px-10 md:px-26">
+            <div class="row">
+                <div class="col-sm px-4 text-center">
+                    <img src="./images/icons/BG Website Icon_Services.svg" alt="Services" class="img-fluid mx-auto d-block scale-75" width="500px">
+                </div>
+                <div class="col-sm px-4">
+                    <h2 class="display-5 font-[Unbounded] font-[700]">
+                        Services
+                    </h2>
+                    <p class="md:text-[24px] font-[Unbounded]">
+                        GETTING YOUR FOCUS BACK
+                    </p>
+                    <p class="pt-4">
+                        As Business Owners we have to get the most of our time and effort. That's why I'm here! I work with you to make your business more efficient and allow you to focus on what matters most.
+                    </p>
+                    <p class="pt-10 fw-bold">
+                        <a href="./pages/service.html" class="text-[#a1aafd] transition duration-300 hover:text-black">
+                            Learn more
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---->
+
+
+    <!-- about -->
+    <div class="container-fluid py-20 bg-[#d6ff87]">
+        <div class="container px-10 md:px-26">
+            <div class="row">
+                <div class="col-sm px-4 text-right">
+                    <h2 class="display-5 font-[Unbounded] font-[700]">
+                        About Me
+                    </h2>
+                    <p class="md:text-[24px] font-[Unbounded]">
+                        LEAVE IT UP TO ME
+                    </p>
+                    <p class="pt-4">
+                        As a Digital Doer, I can assist you with your website, social media marketing, tech tasks, and other ad-hoc tasks like having that document reformatted.
+                    </p>
+                    <p class="pt-10 fw-bold">
+                        <a href="./pages/about.html" class="text-[#a1aafd] transition duration-300 hover:text-black">
+                            Learn more
+                        </a>
+                    </p>
+                </div>
+                <div class="col-sm px-4 text-center">
+                    <img src="./images/icons/BG Website Icon_About Me.svg" alt="About me" class="img-fluid mx-auto d-block" width="400px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---->
+
+    <!-- clients -->
+    <div class="container-fluid py-20">
+        <div class="container px-10 md:px-26">
+            <h2 class="display-5 text-center font-[Unbounded] font-[700]">
+                Who I Worked With
+            </h2>
+            <div class="row pt-2">
+                <div class="col-sm text-center">
+                    <a href="https://www.manaaki.io" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/logos/manaaki.png" alt="Manaaki">
+                    </a>
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://www.chooza.com" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/logos/chooza.png" alt="Chooza">
+                    </a>
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://mqtooling.com" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/logos/mqtooling.png" alt="MQTooling">
+                    </a>
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://www.kadishamara.com" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/logos/kadishamara.png" alt="Kadishamara Photography">
+                    </a>
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://www.vossostudio.com" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/logos/vosso.png" alt="Vosso Studio">
+                    </a>
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://www.buildingnetworks.co.nz" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/logos/bnets.png" alt="Building Networks">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---->
+
+<!-- testimonial -->
+<div class="container-fluid bg-[#f3e3f1] py-20">
+    <div class="container px-10 md:px-26">
+        <h2 class="display-5 text-center font-[Unbounded] font-[700]">
+            Testimonials
+        </h2>
+    </div>
+    <!-- carousel -->
+    <div class="carousel slide" id="testimonials" data-bs-ride="carousel">
+        <!-- indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonials" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#testimonials" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#testimonials" data-bs-slide-to="2"></button>
+        </div>
+        <!-- left and right controls -->
+        <button class="carousel-control-prev text-[30px] text-black hover:text-black" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="carousel-control-next text-[30px] text-black hover:text-black" type="button" data-bs-target="#testimonials" data-bs-slide="next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <!-- slideshows -->
+        <div class="carousel-inner py-10 md:py-0">
+            <!-- testimonial 1 -->
+            <div class="carousel-item active">
+                <div class="py-52 md:py-32">
+                    <div class="carousel-caption text-black">
+                        <p class="italic">
+                            Beverly was able to navigate the constantly shifting sands of a start-up, especially at such a fluid and critical time in the project.
+                            Her ability to quickly find where she could add the  most value and run with those opportunities created a real safe pair of hands for the work she was doing.
+                        </p>
+                        <br/>
+                        <p class="text-center font-[700] text-[12px]">
+                            STEPHEN MOON | FOUNDER OF CHOOZA
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- testimonial 2 -->
+            <div class="carousel-item">
+                <div class="py-52 md:py-32">
+                    <div class="carousel-caption text-black">
+                        <p class="italic">
+                            Very professional. Easy to work with. 
+                            Put my mind at ease, knowing that you were doing the work that would have otherwise taken a big chunk of my time.
+                        </p>
+                        <br/>
+                        <p class="text-center font-[700] text-[12px]">
+                            KADISHA GOMES | FOUNDER OF KADISHAMARA PHOTOGRAPHY
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- testimonial 3 -->
+            <div class="carousel-item">
+                <div class="py-52 md:py-32">
+                    <div class="carousel-caption text-black">
+                        <p class="italic">
+                            I am really happy with your service, you really helped me out in a time of feeling the crunch and just jumped in there, and were responsive and available.
+                            You are willing and helpful, available and easy to deal with. I am super grateful for the help you have given me.
+                        </p>
+                        <br/>
+                        <p class="text-center font-[700] text-[12px]">
+                            FIONA MCDONALD | FOUNDER OF VOSSO STUDIO NZ
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!---->
+
+<!-- contact -->
+<div class="container-fluid contact pt-20">
+    <div class="py-20 md:py-36">
+        <h2 class="display-4 font-[700] text-[#f6f6f6] text-center font-[Unbounded]">
+            You don't have to do it alone
+        </h2>
+        <div class="pt-20 text-center">
+            <a href="./pages/contact.html" class="text-[16px] md:text-[20px] fw-bold btn px-10 py-3 rounded-md bg-[#d6ffa7] text-black transition duration-300 hover:text-[#f6f6f6] hover:bg-black">
+                Get in touch now
+            </a>
+        </div>
+    </div>
+</div>
+<!---->
+
+<!-- footer-->
+    <div class="container-fluid py-20 bg-black text-white md:py-36">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm py-2">
+                    <p class="ml-4 fw-bold">
+                        QUICK LINKS
+                        <ul class="list-group">
+                            <a href="./index.html" class="text-[#a1aafd] bg-black fw-bold border-0 list-group-item list-group-item-action transition duration-300 hover:text-white hover:bg-black">
+                                Home
+                            </a>
+                            <a href="./pages/service.html" class="text-[#a1aafd] bg-black fw-bold border-0 list-group-item list-group-item-action transition duration-300 hover:text-white hover:bg-black">
+                                Service
+                            </a>
+                            <a href="./pages/project.html" class="text-[#a1aafd] bg-black fw-bold border-0 list-group-item list-group-item-action transition duration-300 hover:text-white hover:bg-black">
+                                Projects
+                            </a>
+                            <a href="./pages/about.html" class="text-[#a1aafd] bg-black fw-bold border-0 list-group-item list-group-item-action transition duration-300 hover:text-white hover:bg-black">
+                                About
+                            </a>
+                            <a href="./pages/contact.html" class="text-[#a1aafd] bg-black fw-bold border-0 list-group-item list-group-item-action transition duration-300 hover:text-white hover:bg-black">
+                                Contact
+                            </a>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-sm py-2">
+                    <p class="ml-4 fw-bold">
+                        HELP
+                        <ul class="list-group">
+                            <a href="./pages/privacy-policy.html" class="text-[#a1aafd] bg-black fw-bold border-0 list-group-item list-group-item-action transition duration-300 hover:text-white hover:bg-black">
+                                Privacy Policy
+                            </a>
+                            <a href="./pages/terms-and-conditions.html" class="text-[#a1aafd] bg-black fw-bold border-0 list-group-item list-group-item-action transition duration-300 hover:text-white hover:bg-black">
+                                Terms and Conditions
+                            </a>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-sm py-2">
+                    <p class="ml-4 fw-bold">
+                        FOLLOW ME
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 bg-black">
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/BeverlyDigitalDoer">
+                                            <img src="./images/icons/BG Website Icon_FacebookWHITE-11.svg" alt="Facebook" width="20px">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/beverlygupit/">
+                                            <img src="./images/icons/BG Website Icon_InstagramWHITE-10.svg" alt="Instagram" width="20px">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <!-- linkedin -->
+                                        <a href="https://www.linkedin.com/in/beverly-ann-gupit/">
+                                            <img src="./images/icons/BG Website Icon_LinkedinWHITE-12.svg" alt="LinkedIn" width="20px">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+
+                                    </div>
+                                    <div class="col">
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <hr id="footer-line"/>
+            <p class="text-center text-[14px] pt-10">
+                2023 © beverlygupit.digital
+            </p>
+        </div>
+    </div>
+<!---->
+
+</body>
+</html>

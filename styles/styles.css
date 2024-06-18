@@ -1,0 +1,118 @@
+.navbar {
+  position: relative;
+}
+.navbar .navbar-brand {
+  position: absolute;
+  top: 70%;
+  left: 48.5%;
+  display: block;
+}
+@media screen and (min-width: 320px) {
+  .navbar .navbar-brand {
+    left: 42%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .navbar .navbar-brand {
+    left: 43%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .navbar .navbar-brand {
+    left: 44%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar .navbar-brand {
+    left: 46.5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navbar .navbar-brand {
+    left: 47.5%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .navbar .navbar-brand {
+    left: 48.5%;
+  }
+}
+.navbar .navbar-nav {
+  position: absolute;
+  right: 5%;
+  display: block;
+}
+
+.welcome {
+  background-image: url("../images/BG Service Projects & About.png");
+  background-position: center;
+  background-size: cover;
+}
+.welcome .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-banner {
+  background-image: url("../images/BG Service Projects & About.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact {
+  background-image: url("../images/BG Contact Background.png");
+  background-position: center;
+  background-size: cover;
+}
+.contact .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.offcanvas-body img {
+  display: inline-block;
+}
+
+.gg-menu-right, .gg-close {
+  --ggs: 1.5;
+}
+
+.gg-chevron-right {
+  --ggs: 0.7;
+}
+
+.portfolio-btn {
+  cursor: pointer;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container-contact {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%;
+}
+
+.carousel .carousel-indicators button {
+  background-color: #71717a;
+}
+.carousel .carousel-indicators button .active {
+  background-color: #71717a;
+}
+
+.footer-line {
+  border-top: 1px solid black;
+}/*# sourceMappingURL=styles.css.map */
